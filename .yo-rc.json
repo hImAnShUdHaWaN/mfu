@@ -67,6 +67,7 @@
     "nativeLanguage": "en",
     "languages": [
       "en"
-    ]
+    ],
+    "herokuAppName": "pfmindia"
   }
 }
