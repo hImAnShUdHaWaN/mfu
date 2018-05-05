@@ -23,7 +23,7 @@ import java.time.Instant;
  * A user.
  */
 
-@Document(collection = "jhi_user")
+@Document(collection = "MFU_USER")
 public class User extends AbstractAuditingEntity implements Serializable {
 
     private static final long serialVersionUID = 1L;

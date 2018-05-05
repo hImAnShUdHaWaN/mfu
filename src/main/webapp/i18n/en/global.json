@@ -46,7 +46,8 @@
         "messages": {
             "info": {
                 "authenticated": "If you want to <a class=\"alert-link\" href=\"\" ng-click=\"vm.login()\">sign in</a>, you can try the default accounts:<br/>- Administrator (login=\"admin\" and password=\"admin\") <br/>- User (login=\"user\" and password=\"user\").",
-                "register": "You don't have an account yet? <a class=\"alert-link\" href=\"\" ng-click=\"vm.register()\">Register a new account</a>"
+                "register": "You don't have an account yet? <a class=\"alert-link\" href=\"\" ng-click=\"vm.register()\">Register a new account</a>",
+                "login": "Are you the one? <a class=\"alert-link\" href=\"\" ng-click=\"vm.login()\">Click here to login.</a>"
             },
             "error": {
                 "dontmatch": "The password and its confirmation do not match!"
@@ -121,5 +122,5 @@
         "emailexists": "Email is already in use!",
         "idexists": "A new {{ entityName }} cannot already have an ID"
     },
-    "footer": "This is your footer"
+    "footer": "This site is under construction."
 }
