@@ -2,6 +2,9 @@
     "home": {
         "title": "Your home for all investment needs!",
         "subtitle": "Right now, only for priveleged few",
+        "dashboard": {
+            "button": "{{username}} dashboard"
+        },
         "logged": {
             "message": "You are logged in as user \"{{username}}\"."
         },
@@ -10,3 +13,4 @@
         "github": "GitHub"
     }
 }
+

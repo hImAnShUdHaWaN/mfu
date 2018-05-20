@@ -1,6 +1,5 @@
 package com.mfu.domain.funds;
 
-import com.mfu.domain.AbstractAuditingEntity;
 import lombok.Data;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
@@ -12,7 +11,7 @@ import java.util.Date;
  * Created by himanshu dhawan on 01-05-2018.
  */
 @Data
-@Document(collection = "fund")
+@Document(collection = "MFU_FUND_DETAILS")
 public class Fund implements Serializable {
 
     private static final long serialVersionUID = 1L;

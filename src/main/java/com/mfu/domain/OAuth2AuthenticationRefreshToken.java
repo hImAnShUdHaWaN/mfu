@@ -8,7 +8,7 @@ import org.springframework.security.oauth2.provider.OAuth2Authentication;
 import java.io.Serializable;
 import java.util.UUID;
 
-@Document(collection = "OAUTH_AUTHENTICATION_REFRESH_TOKEN")
+@Document(collection = "MFU_OAUTH_AUTHENTICATION_REFRESH_TOKEN")
 public class OAuth2AuthenticationRefreshToken implements Serializable {
 
     private static final long serialVersionUID = 1L;

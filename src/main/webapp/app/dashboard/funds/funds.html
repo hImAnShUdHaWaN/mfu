@@ -1,0 +1,25 @@
+<div>
+    <h2 data-translate="funds.title">Funds</h2>
+
+    <table class="table table-condensed table-striped table-bordered table-responsive">
+        <thead>
+        <tr>
+            <th ng-click="predicate = 'amc'; reverse=!reverse"><span data-translate="funds.table.header.amc">AMC</span></th>
+            <th ng-click="predicate = 'schemeName'; reverse=!reverse"><span data-translate="funds.table.header.name">Scheme Name</span></th>
+            <th ng-click="predicate = 'type'; reverse=!reverse"><span data-translate="funds.table.header.type">Type</span></th>
+            <th ng-click="predicate = 'categories'; reverse=!reverse"><span data-translate="funds.table.header.category">Category</span></th>
+        </tr>
+        </thead>
+
+        <tr ng-repeat="fund in vm.funds | filter:filter | orderBy:predicate:reverse" ng-hide="fund.filtered">
+            <td><span>{{ fund.amc }}</span></td>
+            <td><small>{{ fund.detailedName }}</small></td>
+            <td>{{ fund.type }}</td>
+            <td>{{ fund.category }}</td>
+        </tr>
+    </table>
+
+<!--    <div class="text-center">
+        <uib-pagination class="pagination-sm" total-items="vm.totalItems" ng-model="vm.page" ng-change="vm.loadPage(vm.page)"></uib-pagination>
+    </div>-->
+</div>

@@ -1,0 +1,21 @@
+{
+    "funds":{
+        "title": "List of Funds",
+        "filter": {
+            "amc": "Filter by AMC",
+            "type": "Filter by Type",
+            "category": "Filter by Category"
+        },
+        "amc": "AMC",
+        "type": "Type",
+        "category": "Category",
+        "table": {
+            "header": {
+                "name": "Scheme Name",
+                "amc": "AMC",
+                "type": "Type",
+                "category": "Category"
+            }
+        }
+    }
+}

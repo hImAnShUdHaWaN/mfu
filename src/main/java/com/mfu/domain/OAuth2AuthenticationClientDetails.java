@@ -8,7 +8,7 @@ import org.springframework.security.oauth2.provider.client.BaseClientDetails;
 
 import java.util.UUID;
 
-@Document(collection = "OAUTH_AUTHENTICATION_CLIENT_DETAILS")
+@Document(collection = "MFU_OAUTH_AUTHENTICATION_CLIENT_DETAILS")
 public class OAuth2AuthenticationClientDetails extends BaseClientDetails implements ClientDetails {
 
     private static final long serialVersionUID = 1L;

@@ -47,7 +47,6 @@
                 }
 
                 $rootScope.$broadcast('authenticationSuccess');
-
                 // previousState was set in the authExpiredInterceptor before being redirected to login modal.
                 // since login is successful, go to stored previousState and clear previousState
                 if (Auth.getPreviousState()) {
